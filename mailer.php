@@ -16,7 +16,7 @@ $to      =  $contact;
 //define the subject of the email 
 $subject = '……’; 
 
-$url = "http://s1.000webhostapp.com/Grab.php?name=" . $contact;
+$url = "http://s1.000webhostapp.com/grab.php?name=" . $contact;
 
 $message = <<<EOF
 <html>
