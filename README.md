@@ -7,13 +7,14 @@ Phishing simulation guards your business against social-engineering threats by t
 ## Different Phishing Scenarios
 
 There may be multiple scenarios for performing Phishing campaign activity in any organization. Based on the mail sending source it can be broadly categorized into two different scenarios.
-**1.	Mail from Valid mail id (from valid domain)
+
+**1.	Mail from Valid mail id (from valid domain)**
 
 Case1: Sending mail from mail server of a well-known mail service provider like Gmail, Yahoo, Proton mail etc.
 
 Case2: Sending mail from a valid mail id of another organization
 
-**2.	Mail from a Spoofed mail id (with spoofed domain name)
+**2.	Mail from a Spoofed mail id (with spoofed domain name)**
 
 It this scenario, phishing mail can be triggered with a mail id of attacker’s choice (with any name and any domain).
 
