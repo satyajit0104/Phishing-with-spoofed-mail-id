@@ -34,9 +34,9 @@ Then I developed two simple php scripts:
 
 ## Steps for Execution
 
-In order to make the campaign successful, I have followed the below steps:</br>
-•	I set up two separate servers (s1 & s2) in 000webhost
-•	Put mailer.php and test.php in s1 and one log file (UserLog.txt) in s2
-•	Hit http://s1.000webhostapp.com/mailer.php in browser in order to trigger the mail to the target users
-•	Continuously checked logfile in s2 (http://s2.000webhostapp.com/UserLog.php) in an interval of 15 mins
+In order to make the campaign successful, I have followed the below steps:</br></br>
+•	I set up two separate servers (s1 & s2) in 000webhost</br>
+•	Put mailer.php and test.php in s1 and one log file (UserLog.txt) in s2</br>
+•	Hit http://s1.000webhostapp.com/mailer.php in browser in order to trigger the mail to the target users</br>
+•	Continuously checked logfile in s2 (http://s2.000webhostapp.com/UserLog.php) in an interval of 15 mins</br>
 
