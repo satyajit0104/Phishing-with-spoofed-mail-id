@@ -12,7 +12,7 @@ There may be multiple scenarios for performing Phishing campaign activity in any
 
 Case1: Sending mail from mail server of a well-known mail service provider like Gmail, Yahoo, Proton mail etc.
 
-Case2: Sending mail from a valid mail id of another organization
+Case2: Sending mail from a valid mail id of another organization or from any leased domain
 
 **2.	Mail from a Spoofed mail id (with spoofed domain name)**
 
