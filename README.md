@@ -18,7 +18,7 @@ Case2: Sending mail from a valid mail id of another organization
 
 It this scenario, phishing mail can be triggered with a mail id of attacker’s choice (with any name and any domain).
 
-<code> In case of sending mails from a valid mail id, we can establish the campaign using open source simulation tools like GoPhish, InfosecIQ etc. and also we can sometime leverage SET Toolkit also in case of any simple content. However, currently in this chapter we will be focusing on sending mails from a spoofed mail id. </code>
+<code>**In case of sending mails from a valid mail id, we can establish the campaign using open source simulation tools like GoPhish, InfosecIQ etc. and also we can sometime leverage SET Toolkit also in case of any simple content. However, currently in this chapter we will be focusing on sending mails from a spoofed mail id.**</code>
 
 ## Requirements
 Basic client requirement was to send the mail to a targeted list of users from a spoofed mail id (abc@clientdomain.com) which will be exactly same with the mail id of their HR and CradOperations team along with their standard signature format and mail body should contain a link which will be redirected to organization’s landing page (https://landingpage.clientdomain.com) only upon click.
