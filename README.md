@@ -27,9 +27,9 @@ Client was also interested to get the list of users clicked the link provided ov
 
 ## Setting the Context...
 
-After collating client’s requirement I thought of some customized script rather than using any standard tool. Because no tool was fulfilling the entire set of requirements.
-Then I developed two simple php scripts:
-•	One is for triggering the mail to the target user ids (mailer.php)
+After collating client’s requirement I thought of some customized script rather than using any standard tool. Because no tool was fulfilling the entire set of requirements.</br></br>
+Then I developed two simple php scripts:</br>
+•	One is for triggering the mail to the target user ids (mailer.php)</br>
 •	Second one is to capture the user id from which the user is clicking the link shared over mail and write that user id in a text file (test.php)
 
 ## Steps for Execution
