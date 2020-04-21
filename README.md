@@ -21,10 +21,12 @@ It this scenario, phishing mail can be triggered with a mail id of attacker’s 
 <code>**In case of sending mails from a valid mail id, we can establish the campaign using open source simulation tools like GoPhish, InfosecIQ etc. and also we can sometime leverage SET Toolkit also in case of any simple content. However, currently in this chapter we will be focusing on sending mails from a spoofed mail id.**</code>
 
 ## Requirements
+
 Basic client requirement was to send the mail to a targeted list of users from a spoofed mail id (abc@clientdomain.com) which will be exactly same with the mail id of their HR and CradOperations team along with their standard signature format and mail body should contain a link which will be redirected to organization’s landing page (https://landingpage.clientdomain.com) only upon click.
 Client was also interested to get the list of users clicked the link provided over the mail.
 
 ## Setting the Context...
+
 After collating client’s requirement I thought of some customized script rather than using any standard tool. Because no tool was fulfilling the entire set of requirements.
 Then I developed two simple php scripts:
 •	One is for triggering the mail to the target user ids (mailer.php)
@@ -32,7 +34,7 @@ Then I developed two simple php scripts:
 
 ## Steps for Execution
 
-•	In order to make the campaign successful, I have followed the below steps:
+In order to make the campaign successful, I have followed the below steps:</br>
 •	I set up two separate servers (s1 & s2) in 000webhost
 •	Put mailer.php and test.php in s1 and one log file (UserLog.txt) in s2
 •	Hit http://s1.000webhostapp.com/mailer.php in browser in order to trigger the mail to the target users
